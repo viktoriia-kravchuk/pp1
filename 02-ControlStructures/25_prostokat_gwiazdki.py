@@ -1,3 +1,4 @@
 for i in range(3):
-        print(7*"*")
- 
+    for j in range(7):
+        print("*", end="")
+    print()
