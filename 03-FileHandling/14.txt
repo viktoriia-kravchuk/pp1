@@ -1,0 +1,21 @@
+a. wszystkie znaki /./
+b. słowa ‘Poland’ / Poland /
+c. nazwy państw (Poland, Germany oraz France) / Poland|Germany|France /
+d. litery /[a-zA-Z]/
+e. wielkie litery /[A-Z]/
+f. cyfry [0-9]
+g. wszystkie znaki oprócz cyfr [^0-9]
+h. odstępy /\s/
+i. samogłoski /[aeyio]/
+j. liczby reprezentujące rok /\d\d\d\d/
+k. liczby wyrażone procentowo /\d{1,}%/
+l. znaki interpunkcyjne /[[:punct:]]/
+m. słowa /[[:word:]]/
+n. słowa rozpoczynające się literą ‘n’ /[[:<:]]n[a-z]{1,}/
+o. słowa trzyliterowe /[[:<:]][a-zA-Z]{3}[[:>:]]/
+p. słowa składające się z co najmniej pięciu liter /[a-zA-Z]{5,}/
+q. słowa rozpoczynające się wielką literą/[A-Z][a-z]*/
+r. słowa ‘the’ /the\s/
+s. spójniki ‘and’ /\sand\s/
+t. zdania /.*?[.]\s/
+u. fragmenty tekstu ujęte w nawiasy  
