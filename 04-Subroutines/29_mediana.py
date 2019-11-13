@@ -9,7 +9,6 @@ def mediana(tab):
     else:
         mediana=tab[math.ceil(srednia)]   
     return mediana #zwracamy mediane
-#?Funkcja dziala poprawnie tylko dla liczb jednocyfrowych?     
 def dominanta(tab):
     s=""
     for j in tab:
