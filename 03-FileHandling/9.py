@@ -3,4 +3,4 @@ with open("NoEducation.txt","r") as file:
     for line in file:
         print(n,line,end="")
         n+=1
-file.close()        
+file.close()
