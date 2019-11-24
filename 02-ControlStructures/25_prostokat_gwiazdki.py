@@ -1,4 +1,4 @@
-for i in range(3):
-    for j in range(7):
-        print("*", end="")
+for i in range(3): #wysokosc
+    for j in range(7): #szerokosc 
+        print("*", end="") 
     print()

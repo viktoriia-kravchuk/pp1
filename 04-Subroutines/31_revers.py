@@ -1,7 +1,7 @@
 import math
 def reverse(tab):
     l=len(tab)
-    s=int(math.sqrt(l))+1
+    s=int(math.sqrt(l))+1 #odwracamy do srodka(czyli pierwiastka)
     for i in range(s):
         x=tab[i]
         tab[i]=tab[l-i-1]
