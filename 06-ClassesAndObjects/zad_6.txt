@@ -1,0 +1,21 @@
+a.ksi¹¿ka
+-tytul
+-autor
+-ilosc_stron
+
+-preczytaj
+-otworz
+-zamknij
+b.po³¹czenie telefoniczne
+-uzytkownik_1
+-uzytkownik_2
+-
+
+c.grupa studentów
+-liczba_studentow
+-kierunek_studiow
+-rok_studiow
+
+-sprawdz_obecnosc
+-zrob_zadanie
+-zdaj_egzamin
