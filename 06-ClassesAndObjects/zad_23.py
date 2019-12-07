@@ -1,0 +1,11 @@
+from zad_23_kontakt import Kontakt, ListaKontaktow
+kontakt1=Kontakt('Kowalski Jan', 'jank@onet.pl', '555234000')
+kontakt2=Kontakt('Borek Patrycja', 'bp@o2.pl', '232000199')
+kontakt3=Kontakt('Maj Piotr', 'maj@google.com', '222999100')
+kontakt4=Kontakt('Adamczyk Anna', 'ada@poczta.pl', '100200300')
+lista=ListaKontaktow()
+lista.dodaj(kontakt1)
+lista.dodaj(kontakt2)
+lista.dodaj(kontakt3)
+lista.dodaj(kontakt4)
+lista.wyswietl_kontakty()
