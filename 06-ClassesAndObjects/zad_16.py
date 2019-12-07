@@ -1,0 +1,10 @@
+from zad_16_ksiazka import book 
+ksiazka=book("George R. R. Martin","Game of Thrones",694)
+ksiazka.show_status()
+ksiazka.open()
+ksiazka.read()
+ksiazka.read()
+ksiazka.read()
+ksiazka.show_status()
+ksiazka.close()
+ksiazka.read()
