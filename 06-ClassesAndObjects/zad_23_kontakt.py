@@ -4,7 +4,7 @@ class Kontakt():
         self.email=email
         self.telefon=telefon
     def wyswietl_kontakt(self):
-        print('{:15} {:15} {:15}'.format(self.nazwa,self.email,self.telefon))    
+        print('{:15} {:15} {:10}'.format(self.nazwa,self.email,self.telefon))    
 class ListaKontaktow():
     def __init__(self):
         self.kontakty=[]
