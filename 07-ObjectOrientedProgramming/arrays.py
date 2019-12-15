@@ -1,16 +1,17 @@
 from random import randrange
 class arrays():
+    separator=","
     @staticmethod
     def print_in_col(array):
         for c in array:
-            print(c)
+            print(c,arrays.separator)
     @staticmethod
     def print_in_col2(array):
         l=len(array)
         for i in range(l):
             print(array[i],end="")
             if i!=l-1:
-                print(", ",end="")        
+                print(arrays.separator,end="")        
     @staticmethod
     def create_array(number,value):
         array=[]
@@ -31,6 +32,9 @@ class arrays():
             return 0    
         else:
             return begin-end    
+    @staticmethod
+    def set_separator(znak):
+        arrays.separator=znak
                  
 #my_array = [4,1,8,7,2]
 #arrays.print_in_col(my_array)
