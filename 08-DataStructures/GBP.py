@@ -25,3 +25,12 @@ GBP = {
         }
     ]
 }
+data="Data"
+kurs="Kurs"
+print("{}{:>14}".format(data,kurs))
+print("="*20)
+rates=GBP.get("rates")
+for x in rates:
+    date=x.get("effectiveDate")
+    kurs=x.get("mid")
+    print("{}{:>10}".format(date,kurs))
