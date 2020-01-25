@@ -1,4 +1,4 @@
-from random import randrange
+from random import randrange,randint
 class matrix():
 
     @staticmethod
@@ -41,9 +41,24 @@ class matrix():
     def print(matrix):
         for row in matrix:
             print(row)
-
+    @staticmethod
+    def create_diagonal(x,m,n):
+        matrix=[[0 for _ in range(x)] for _ in range(x)]   
+        l=0
+        for element in matrix:
+            element[l]=randint(m,n)
+            l+=1
+        return matrix
+    @staticmethod
+    def compare(matrix1,matrix2):
+        if matrix1==matrix2:
+            return "Macierzy są równe"
+        else:
+            return "Macierzy nie są równe"    
 m = matrix.create_2(3,5)
 m = matrix.fill_random(m,1,9)
 matrix.print(m)
 m2=matrix.transponse(m)
 matrix.print(m2)
+d=matrix.create_diagonal(5,10,50)
+matrix.print(d)
