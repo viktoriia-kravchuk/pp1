@@ -1,0 +1,16 @@
+from zadanie8 import Sala, Sale
+s1=Sala("Nowa Aula",80)
+s2=Sala("Hala Sportowa",500)
+s3=Sala("Lab.komputerowa 115",35)
+s4=Sala("Sala 053",45)
+s5=Sala("Sala G",70)
+sale=Sale()
+sale.dodaj(s1)
+sale.dodaj(s2)
+sale.dodaj(s3)
+sale.dodaj(s4)
+sale.dodaj(s5)
+print(sale.liczba_sal())
+print(sale.razem_miejsc())
+print(sale.liczba_sal_przedzial(35,100))
+
